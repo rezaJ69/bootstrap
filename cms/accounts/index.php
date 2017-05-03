@@ -1,4 +1,5 @@
 <?php
+// Begin van PHP (session is van de ingelogte personen)
 session_start();
 $pdo = new PDO('mysql:host=localhost;dbname=bootstrap;charset=utf8', 'root', 'SF1960sf');
 

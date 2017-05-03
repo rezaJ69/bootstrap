@@ -116,7 +116,7 @@ else {
 					<div class="panel-title">Wachtwoord veranderen</div>
 				</div>
 				<p>Door op de knop hieronder te klikken kunt u uw wachtwoord op de website veranderen.</p>
-				<a href="http://localhost/bootstrap/cms/products/index.php" class="btn btn-info btn-block">Wachtwoord veranderen</a>
+				<a href="http://localhost/bootstrap/cms/index.php?action=password" class="btn btn-info btn-block">Wachtwoord veranderen</a>
 			</div>
 		</div>
 		<div class="col-sm-3">
