@@ -13,6 +13,14 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
+html {
+   overflow-y: scroll;
+}
+footer {
+position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 #features {
    text-align: center;
 }
