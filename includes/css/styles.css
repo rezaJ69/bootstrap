@@ -1,0 +1,393 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features {
+   text-align: center;
+}
+#features img {
+   margin: 0 0 20px;
+   height: 200px;
+   width: 200px;
+}
+.feature .panel {
+   border-radius: 0px;
+}
+.feature .panel a {
+   border-radius: 0px;
+}
+#inputMessage {
+   margin-bottom: 15px;
+}
+footer {
+   background: #333333;
+   color: #EEEEEE;
+   font-size: 11px;
+   padding: 20px;
+}
+#gif {
+   height: 200px;
+   width: 200px;
+}
+#feat-img {
+   height: 200px !important;
+   width: 300px !important;
+}
+#web-img {
+   height: 200px !important;
+   width: 368px !important;
+   margin-left: -15px !important;
+}
+#about-me {
+   margin-top: 40px;
+}
+#send-butt {
+   margin-left: 478px;
+}
+.fchild {
+   margin-left: 0px;
+}
+.lchild {
+   margin-right: 0px;
+}
+.form-group textarea {
+   resize: vertical;
+}
+.filter-brand-style {
+   font-weight: bold;
+}
+.filter-brand-style a{
+   text-decoration: none;
+   color: #333333;
+}
+#accordion .panel {
+   margin-bottom: -1px;
+   border-radius: 0px;
+}
+#accordion .panel-heading {
+   margin: -15px -15px -16px;
+}
+#accordion .form-horizontal:first-child{
+   margin-top: 30px;
+}
+#accordion a{
+   text-decoration: none;
+}
+.panel-size {
+   height: 450px;
+}
+.account-accordion {
+   margin-bottom: 20px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+}
+.well .page-header {
+   margin-top: 0;
+}
+.well .page-header h1 {
+   margin-top: 0;
+}
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
+.product-info {
+   height: 80px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   text-align: justify;
+}
+.panel-smaller {
+   font-size: 14px;
+}
+#glyph-yes {
+   color: #EF6C00;
+}
+#glyph-no {
+   color: #EF6C00;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput {
+   width: 200px;
+} 
+#login-butt {
+   margin-top: -115px;
+}
+.container ul {
+   margin-top: 40px;
+}
+.logo-text {
+   font-weight: bold;
+   font-size: 26px;
+   /*color: #646464;*/
+   color: #D9534F;
+   margin-top: 33px;
+   display: inline-block;
+}
+.logo-slogan {
+   display: none;
+   color: #646464;
+}
+.dropdown-extra {
+   border-top: none;
+   margin-top: -1px;
+   width: 100%;
+}
+.darker {
+   background: #EDEDED;
+}
+.float-off {
+   float: none !important;
+}
+.float-off li {
+   width: 20%;
+}
+.dropdown-extra li{
+   width: 100%;
+}
+.header-extra {
+   padding: none;
+   text-align: center;
+   font-weight: bold;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel {
+   margin-top: 210px;
+   margin-bottom: 15px;
+}
+.carousel-caption {
+   font-size: 20px;
+}
+.carousel-caption h4{
+   font-size: 32px;
+}
+#myCarousel .item {
+   height: 400px;
+}
+#slide1 {
+   background: url('../../images/repolzz.jpg') top center no-repeat;
+   background-position-y: 50%;
+}
+#slide2 {
+   background: url('../../images/London.jpg') top center no-repeat;
+}
+#slide3 {
+   background: url('../../images/stock.jpg') top center no-repeat;
+}
+#slidecms1 {
+   background: #5BC0DE;
+}
+#slidecms2 {
+   background: #5BC0DE;
+}
+#slidecms3 {
+   background: #5BC0DE;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert {
+   display: none;
+}
+.tabbable img.thumbnail {
+   margin: 0 20px 10px 0;
+}
+.thumbnails {
+   margin: 20px 0;
+}
+.thumbnail {
+   position: relative;
+}
+.thumbnail h3{
+   font-size: 16px;
+   margin: 0 0 10px;
+   line-height: 20px;
+}
+.thumbnail .price {
+   font-size: 22px;
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   padding: 10px;
+}
+.thumbnail .price sup {
+   font-weight: normal;
+   font-size: 12px;
+}
+.thumbnail span.glyphicon {
+   margin-right: 5px;
+}
+.panel .price {
+   font-size: 14px;
+   position: absolute;
+   border-radius: 0px;
+   top: -6px;
+   right: 0px;
+   padding: 18px;
+}
+.panel .price sup {
+   font-weight: normal;
+   font-size: 12px;
+}
+.panel span.glyphicon {
+   margin-right: 5px;
+}
+.width {
+   width: 100% !important;
+}
+.center-img {
+   display: block;
+   margin: 0 auto;
+}
+.specs-short {
+   margin-top: -34px;
+   margin-bottom: 0;
+   padding: 5px;
+   text-align: left;
+   display: inline-block;
+}
+.specs {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.spec-first {
+   width: 150px;
+   display: inline-block;
+   float: left;
+   font-weight: bold;
+   margin-left: 10px;
+}
+.panel-short-specs {
+   margin-right: 15px;
+   border-radius: 0px;
+}
+.panel-heading-extra {
+   margin-top: -21px;
+   margin-right: 15px;
+}
+#panel-extra {
+   padding: 0;
+}
+#col-extra {
+   padding-right: 0;
+}
+.img-container {
+   border: 1px solid #DDDDDD;
+   padding-top: 30.5px;
+   padding-bottom: 30.5px;
+   width: 586px;
+}
+.detail-img {
+   height: 400px;
+   width: 400px;
+   margin-left: 32px;
+}
+.img-container .price {
+   font-size: 22px;
+   position: absolute;
+   top: 50px;
+   right: 10px;
+   padding: 10px;
+   border-radius: 0px;
+}
+.img-container .price sup {
+   font-weight: normal;
+   font-size: 12px;
+}
+.img-container span.glyphicon {
+   margin-right: 5px;
+}
+.specs-all {
+   text-align: justify;
+}
+.panel-radius {
+   border-radius: 0px;
+}
+.panel-spec {
+   margin-right: 15px;
+   margin-left: 15px;
+}
+.panel-filter {
+   margin-bottom: 45px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	.thumbnail .price {
+      font-size: 14px;
+   }
+   .thumbnail .price sup{
+      font-size: 10px;
+   }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item {
+      height: 310px;
+   }
+   #slide1 {
+      background: url('../../images/repolzz.jpg') top center no-repeat;
+      background-position-y: 50%;
+   }
+   #slide2 {
+      background: url('../../images/London.jpg') top center no-repeat;
+      background-position-y: 60%;
+   }
+   #slide3 {
+      background: url('../../images/stock.jpg') top center no-repeat;
+   }
+   .carousel-caption {
+      font-size: 16px;
+   }  
+   .carousel-caption h4 {
+      font-size: 22px;
+   }
+   #send-butt {
+      float: right;
+   }
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+   #myCarousel .item {
+      height: 500px;
+   }
+   #slide1 {
+      background: url('../../images/jmr-slide.png') top center no-repeat;
+      background-position: 0;
+      max-height: 100%;
+      max-width: 100%;
+   }
+   #slide2 {
+      background: url('../../images/telefoon-slide.jpg') top center no-repeat;
+      background-position-y: 80%;
+   }
+   #slide3 {
+      background: url('../../images/pc-slide.jpg') top center no-repeat;
+   }
+   .logo-slogan {
+      display: inline-block;
+   }
+}
